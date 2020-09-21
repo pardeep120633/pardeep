@@ -14,7 +14,7 @@ async def on_ready():
     print(bot.user.name)
     print("Everything's all ready to go~")
     while True:
-    	await bot.change_presence(activity=discord.Activity(type=1,name="with Yash Singh!"))
+    	await bot.change_presence(activity=discord.Activity(type=1,name="with Moolah News!"))
     	await asyncio.sleep(3)
     	
     	await bot.change_presence(activity=discord.Activity(type=1,name="with DM BOT!"))
@@ -48,4 +48,4 @@ async def f(ctx,*,msg):
 				
 				await ctx.send(embed=embed)
         
-bot.run("NzA5MjgxMzI1NzA5Nzg3MTY2.XrjntQ.mYLGkfgCkrJqVdunb1V2_Vf24v4")  # Where 'TOKEN' is 
+bot.run("NzQwOTQ3ODk2NjA1NzM3MDkx.XywbgA.EY3wAo-u2ndkSA0-M9PZ2DwTk80")  # Where 'TOKEN' is 
